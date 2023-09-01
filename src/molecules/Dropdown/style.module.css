@@ -1,0 +1,28 @@
+.Dropdown {
+}
+
+.title {
+  color: #666666;
+
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+
+  padding: 12px 0;
+
+  border-bottom: 1px solid #66666630;
+
+  font-size: 15px;
+  font-weight: 400;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.title:hover {
+  color: #00b7ce;
+}
+
+.list {
+  padding-inline-start: calc(4 * var(--padding));
+}

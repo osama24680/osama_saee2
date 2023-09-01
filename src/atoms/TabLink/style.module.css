@@ -1,0 +1,35 @@
+.TabLink {
+  color: #666666;
+
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+
+  padding: calc(2 * var(--padding)) 0;
+
+  border-bottom: 1px solid #66666630;
+
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.active {
+  font-weight: bold;
+  color: #00b7ce;
+}
+
+.solid {
+  border-bottom: none;
+  padding: var(--padding) calc(3 * var(--padding));
+  border-radius: calc(3 * var(--padding));
+}
+
+.solid:hover {
+  color: #ffffff;
+  background-color: #21409a;
+}
+
+.solid.active {
+  color: #ffffff;
+  background-color: #00b7ce;
+}
